@@ -16,7 +16,8 @@ from config import Config
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, InlineQuery, InputTextMessageContent
-
+from keep_alive import keep_alive
+keep_alive()
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
