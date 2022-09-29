@@ -4,3 +4,7 @@ asyncio
 requests
 aiohttp
 aiofiles
+flask
+click
+colorama
+importlib-metadata
